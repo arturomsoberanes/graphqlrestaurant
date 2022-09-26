@@ -1,0 +1,19 @@
+{
+  "name": "graphqlrestaurant",
+  "version": "1.0.0",
+  "description": "Crud of Restaurants with graphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "arturo.soberanes01@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  }
+}
